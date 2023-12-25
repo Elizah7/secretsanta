@@ -15,6 +15,7 @@ const Game = () => {
   let storedValue = localStorage.getItem("answerarray");
   let answerarray = storedValue ? JSON.parse(storedValue) : [];  
   const { isOpen, onOpen, onClose } = useDisclosure()
+  
   useEffect(() => {
     localStorage.removeItem("answerarray");
   }, []);
