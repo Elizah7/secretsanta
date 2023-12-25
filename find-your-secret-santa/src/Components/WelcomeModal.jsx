@@ -22,6 +22,7 @@ const Popup = () => {
               <li>Answer each question carefully.</li>
               <li>My name is hidden in the correct answers so choose only correct answers otherwise, you might not be able to find my name</li>
               <li>Have fun and good luck!</li>
+              <li></li>
             </ul>
           </Box>
         </ModalBody>

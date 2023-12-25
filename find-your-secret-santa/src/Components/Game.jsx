@@ -1,5 +1,5 @@
 // Game.js
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import questions from './questions';
 import { Box, Container, Heading, useDisclosure } from '@chakra-ui/react';
 import Question from './Question';
@@ -15,6 +15,9 @@ const Game = () => {
   let storedValue = localStorage.getItem("answerarray");
   let answerarray = storedValue ? JSON.parse(storedValue) : [];  
   const { isOpen, onOpen, onClose } = useDisclosure()
+  useEffect(() => {
+    localStorage.removeItem("answerarray");
+  }, []);
   const handleAnswer = (selectedOption) => {
     // if (selectedOption === questions[currentQuestion].correctAnswer) {
     //     answerarray.push()

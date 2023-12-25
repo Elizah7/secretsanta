@@ -26,7 +26,7 @@ const questions = [
       {
         question: "In web development, what language is commonly used to style and layout web pages ?",
         options: [
-          "Javascript",
+          "Java-script",
           "HTML",
           "CSS",
           "Python",
