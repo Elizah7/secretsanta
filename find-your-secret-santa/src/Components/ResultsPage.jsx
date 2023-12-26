@@ -7,7 +7,7 @@ const ResultPage = () => {
     let answerarray = JSON.parse(localStorage.getItem("answerarray"))||[]; 
   return (
     <Container maxW="xl" centerContent className='container'>
-      <Box p={8} borderRadius="lg">
+      <Box p={8} borderRadius="lg" className='resultmodal'>
         <Heading mb={4}>Prashant's Answers</Heading>
         {answerarray.map((answer, index) => (
           <Box key={index} mb={2}>
