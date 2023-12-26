@@ -14,7 +14,7 @@ const Popup = () => {
     <Modal isOpen={isOpen} onClose={onClose} size="md" >
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader className="modal">Welcome, Prashant!</ModalHeader>
+        <ModalHeader className="modal">"Ho Ho Ho! Welcome, Prashant! Santa is delighted to have you here at Finding Secrect Santa 🎅✨ Ho Ho Ho!"</ModalHeader>
         <ModalBody className="modal">
           <Box>
             <p>Thank you for participating in the Secret Santa game! I am your "Secret Santa" and to find out my name you have to play this small game. Here are the instructions:</p>

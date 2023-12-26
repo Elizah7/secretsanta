@@ -14,7 +14,7 @@ const ResultPopup = ({ isOpen, onClose, score }) => {
         <ModalBody className="modal">
           <Box>
             <p>Congratulations! You've completed the game.</p>
-            <p>Your final score is: {score}</p>
+            <p>Now try to figure out my name</p>
           </Box>
         </ModalBody>
         <ModalFooter>
